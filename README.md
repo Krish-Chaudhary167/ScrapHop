@@ -3,6 +3,9 @@
 > **Environmental Hacks 2026 — Waste & Energy Track**  
 > *Transforming urban domestic waste management through AI computer vision and decentralized circular routing on AWS.*
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-AWS_Amplify-FF9900?style=for-the-badge&logo=amazon-aws)](https://main.do5dhcqqvd8wf.amplifyapp.com)  
+**🚀 Live Deployed URL:** **[https://main.do5dhcqqvd8wf.amplifyapp.com](https://main.do5dhcqqvd8wf.amplifyapp.com)**
+
 ---
 
 ## 🌍 The Problem
