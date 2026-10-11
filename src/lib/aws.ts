@@ -3,11 +3,11 @@ import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient } from "@aws-sdk/lib-dynamodb";
 import { RekognitionClient } from "@aws-sdk/client-rekognition";
 
-const region = process.env.AWS_REGION || "ap-south-1";
+const region = process.env.APP_AWS_REGION || process.env.AWS_REGION || "ap-south-1";
 
 const credentials = {
-  accessKeyId: process.env.AWS_ACCESS_KEY_ID || "",
-  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || "",
+  accessKeyId: process.env.APP_AWS_ACCESS_KEY_ID || process.env.AWS_ACCESS_KEY_ID || "",
+  secretAccessKey: process.env.APP_AWS_SECRET_ACCESS_KEY || process.env.AWS_SECRET_ACCESS_KEY || "",
 };
 
 // ── AWS S3 Client for Image Storage ──

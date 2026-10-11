@@ -63,7 +63,7 @@ export async function GET(req: NextRequest) {
     );
 
     // Apply privacy masking for unaccepted orders
-    const sanitizedOrders = uncompletedOrders.map((order) => {
+    const sanitizedOrders = uncompletedOrders.map((order: Record<string, any>) => {
       const isAccepted = order.status === "ACCEPTED";
 
       if (isAccepted) {
@@ -84,7 +84,7 @@ export async function GET(req: NextRequest) {
       };
     });
 
-    const sortedOrders = sanitizedOrders.sort((a, b) => {
+    const sortedOrders = sanitizedOrders.sort((a: Record<string, any>, b: Record<string, any>) => {
       return (
         new Date(b.createdAt || 0).getTime() -
         new Date(a.createdAt || 0).getTime()
