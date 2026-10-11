@@ -6,6 +6,7 @@ frontend:
         - npm ci --cache .npm --prefer-offline
     build:
       commands:
+        - env | grep -E '^(APP_AWS_|S3_|DYNAMODB_)' >> .env.production || true
         - npm run build
   artifacts:
     baseDirectory: .next
