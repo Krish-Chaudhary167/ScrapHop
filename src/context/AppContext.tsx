@@ -31,7 +31,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     startSellingScrap: "Start Selling Scrap",
     joinAsCollector: "Join as Collector",
     readyToClear: "Ready to clear out the clutter?",
-    joinThousands: "Join thousands of households already using ScrapHop to earn money from waste.",
+    joinThousands: "Schedule an instant doorstep pickup to turn recyclable waste into cash and keep our cities clean.",
     // Sell page
     sellPageTitle: "Sell Your Scrap",
     sellPageSubtitle: "Upload photos, pick scrap types, and request a pickup in seconds.",
@@ -122,7 +122,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     startSellingScrap: "कबाड़ बेचना शुरू करें",
     joinAsCollector: "कबाड़ी के रूप में जुड़ें",
     readyToClear: "घर का कबाड़ साफ करने के लिए तैयार हैं?",
-    joinThousands: "कबाड़ से पैसे कमाने के लिए हजारों परिवारों से जुड़ें।",
+    joinThousands: "डोरस्टेप पिकअप शेड्यूल करें, कबाड़ से तुरंत पैसे कमाएं और शहर को स्वच्छ रखें।",
     // Sell page
     sellPageTitle: "अपना कबाड़ बेचें",
     sellPageSubtitle: "फोटो अपलोड करें, कबाड़ चुनें और कुछ ही सेकंड में पिकअप बुक करें।",
@@ -192,7 +192,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     startSellingScrap: "ਕਬਾੜ ਵੇਚਣਾ ਸ਼ੁਰੂ ਕਰੋ",
     joinAsCollector: "ਕਬਾੜੀ ਵਜੋਂ ਜੁੜੋ",
     readyToClear: "ਘਰ ਦਾ ਕਬਾੜ ਸਾਫ਼ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ?",
-    joinThousands: "ਕਬਾੜ ਤੋਂ ਪੈਸੇ ਕਮਾਉਣ ਲਈ ਹਜ਼ਾਰਾਂ ਪਰਿਵਾਰਾਂ ਨਾਲ ਜੁੜੋ।",
+    joinThousands: "ਡੋਰਸਟੈਪ ਪਿਕਅੱਪ ਬੁੱਕ ਕਰੋ, ਕਬਾੜ ਤੋਂ ਤੁਰੰਤ ਪੈਸੇ ਕਮਾਓ ਅਤੇ ਸ਼ਹਿਰ ਨੂੰ ਸਾਫ਼ ਰੱਖੋ।",
     // Sell page
     sellPageTitle: "ਆਪਣਾ ਕਬਾੜ ਵੇਚੋ",
     sellPageSubtitle: "ਫੋਟੋ ਅੱਪਲੋਡ ਕਰੋ, ਕਬਾੜ ਚੁਣੋ ਅਤੇ ਸਕਿੰਟਾਂ ਵਿੱਚ ਪਿਕਅੱਪ ਬੁੱਕ ਕਰੋ।",
@@ -262,7 +262,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     startSellingScrap: "ભંગાર વેચવાનું શરૂ કરો",
     joinAsCollector: "ભંગારવાળા તરીકે જોડાઓ",
     readyToClear: "ઘરનો ભંગાર સાફ કરવા તૈયાર છો?",
-    joinThousands: "ભંગારમાંથી પૈસા કમાવવા હજારો પરિવારો સાથે જોડાઓ.",
+    joinThousands: "ડોરસ્ટેપ પીકઅપ શેડ્યૂલ કરો, ભંગારમાંથી રોકડ કમાઓ અને શહેરને સ્વચ્છ રાખો.",
     // Sell page
     sellPageTitle: "તમારો ભંગાર વેચો",
     sellPageSubtitle: "ફોટો અપલોડ કરો, ભંગાર પસંદ કરો અને સેકંડમાં પીકઅપ બુક કરો.",
@@ -332,7 +332,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     startSellingScrap: "స్క్రాప్ అమ్మడం ప్రారంభించండి",
     joinAsCollector: "కలెక్టర్‌గా చేరండి",
     readyToClear: "ఇంటి స్క్రాప్‌ను క్లియర్ చేయడానికి సిద్ధంగా ఉన్నారా?",
-    joinThousands: "వ్యర్థాల నుండి డబ్బు సంపాదించడానికి వేలాది ఇళ్లతో చేరండి.",
+    joinThousands: "డోర్‌స్టెప్ పికప్‌ని బుక్ చేసుకోండి, స్క్రాప్ నుండి డబ్బు సంపాదించండి మరియు నగరాన్ని శుభ్రంగా ఉంచండి.",
     // Sell page
     sellPageTitle: "మీ స్క్రాప్‌ను అమ్మండి",
     sellPageSubtitle: "ఫోటోలు అప్‌లోడ్ చేయండి, స్క్రాప్ రకాలను ఎంచుకోండి మరియు క్షణాల్లో పికప్ బుక్ చేయండి.",
@@ -402,7 +402,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     startSellingScrap: "பழைய பொருள் விற்க தொடங்குங்கள்",
     joinAsCollector: "சேகரிப்பாளராக இணையுங்கள்",
     readyToClear: "வீட்டு பழைய பொருட்களை அகற்ற தயாரா?",
-    joinThousands: "பழைய பொருட்களிலிருந்து பணம் சம்பாதிக்க ஆயிரக்கணக்கான குடும்பங்களுடன் இணையுங்கள்.",
+    joinThousands: "வீட்டு வாசல் பிக்கப் பதிவு செய்யுங்கள், பழைய பொருட்களுக்கு பணம் பெறுங்கள், நகரத்தை தூய்மையாக வையுங்கள்.",
     // Sell page
     sellPageTitle: "உங்கள் பழைய பொருட்களை விற்கவும்",
     sellPageSubtitle: "புகைப்படங்களை பதிவேற்றவும், பழைய பொருள் வகைகளை தேர்வு செய்யவும், நொடிகளில் பிக்கப் பதிவு செய்யவும்.",
