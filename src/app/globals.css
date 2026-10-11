@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *));
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #111827;
+  --color-brand: #10B981;
+  --color-brand-dark: #059669;
+  --color-brand-light: #D1FAE5;
+  --color-brand-50: #ECFDF5;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #111827;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Smooth hover transitions for cards ── */
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Timeline connector line ── */
+.timeline-line {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  bottom: 0;
+  width: 2px;
+  background: #D1FAE5;
+}
+
+/* ── Pulse for radar ── */
+@keyframes radar-ping {
+  0% { transform: scale(1); opacity: 0.5; }
+  75%, 100% { transform: scale(2.2); opacity: 0; }
+}
+
+.animate-radar-ping {
+  animation: radar-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-radar-ping-delayed {
+  animation: radar-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation-delay: 0.6s;
+}
+
+/* ── Night / Dark Mode overrides ── */
+html.dark,
+[data-theme="dark"],
+:root.dark {
+  color-scheme: dark;
+}
+
+html.dark body,
+body.dark,
+[data-theme="dark"] body {
+  background-color: #0b0f19 !important;
+  color: #f1f5f9 !important;
+}
+
+.dark .bg-white,
+[data-theme="dark"] .bg-white {
+  background-color: #111827 !important;
+  color: #f8fafc !important;
+}
+
+.dark .bg-gray-50,
+[data-theme="dark"] .bg-gray-50 {
+  background-color: #0b0f19 !important;
+}
+
+.dark .bg-gray-100,
+[data-theme="dark"] .bg-gray-100 {
+  background-color: #1f2937 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark .border-gray-100,
+.dark .border-gray-200,
+.dark .border-gray-300,
+[data-theme="dark"] .border-gray-100,
+[data-theme="dark"] .border-gray-200,
+[data-theme="dark"] .border-gray-300 {
+  border-color: #1f2937 !important;
+}
+
+.dark .text-gray-900,
+[data-theme="dark"] .text-gray-900 {
+  color: #f9fafb !important;
+}
+
+.dark .text-gray-800,
+[data-theme="dark"] .text-gray-800 {
+  color: #f3f4f6 !important;
+}
+
+.dark .text-gray-700,
+[data-theme="dark"] .text-gray-700 {
+  color: #e5e7eb !important;
+}
+
+.dark .text-gray-600,
+[data-theme="dark"] .text-gray-600 {
+  color: #d1d5db !important;
+}
+
+.dark .text-gray-500,
+[data-theme="dark"] .text-gray-500 {
+  color: #9ca3af !important;
+}
+
+.dark .text-gray-400,
+[data-theme="dark"] .text-gray-400 {
+  color: #6b7280 !important;
+}
+
+.dark input,
+[data-theme="dark"] input {
+  background-color: #1f2937 !important;
+  color: #f9fafb !important;
+  border-color: #374151 !important;
+}
+
+.dark input::placeholder,
+[data-theme="dark"] input::placeholder {
+  color: #6b7280 !important;
+}
+
+
